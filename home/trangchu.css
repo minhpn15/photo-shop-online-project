@@ -1,0 +1,156 @@
+body {
+  font-family: "Myriad Pro" ,"League Gothic","Cabin",Helvetica,Arial,sans-serif;
+}
+
+.container-fuild {
+  background: #fff;
+  margin: 0 30px 0 30px;
+  background-repeat:repeat
+}
+
+.header-top {
+  background-color: #0E5D6B;
+}
+
+.form-inline {
+  margin-top: 8rem;
+}
+
+.main-content .container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #fff;
+}
+.main-content .container .slideshow {
+  border: 1px solid #0E5D6B;
+  margin-bottom: 1rem;
+}
+.main-content .container .slideshow img {
+  max-height: 420px;
+}
+.main-content .container .sanpham {
+  margin-top: 3rem;
+}
+.main-content .container .sanpham .khungsp {
+  width: 300px;
+  height: 400px;
+}
+.main-content .container .sanpham .khungsp img {
+  padding: 1px;
+  width: 100%;
+  height: 80%;
+}
+.main-content .container .sanpham .khungsp img:hover {
+  border: 2px solid #0E5D6B;
+}
+.main-content .container .sanpham .khungsp a {
+  text-decoration: none;
+  color: #160404;
+  font-style: italic;
+}
+.main-content .container .dichvu {
+  margin-top: 4rem;
+}
+.main-content .container .dichvu .col-md-4 a {
+  text-decoration: none;
+  color: #160404;
+  font-style: italic;
+  padding-left: 3rem;
+}
+.main-content .container .dichvu .col-md-4 .khunganh {
+  width: 300px;
+  height: 400px;
+}
+.main-content .container .dichvu .col-md-4 .khunganh:hover {
+  border: 2px solid #0E5D6B;
+}
+.main-content .container .dichvu .col-md-4 .khunganh img {
+  padding: 1px;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-sanpham {
+  position: relative;
+  display: inline-block;
+}
+.menu-sanpham:hover .linksp {
+  background-color: transparent;
+}
+.menu-sanpham:hover .dropdown-menu {
+  display: block;
+}
+.menu-sanpham .linksp {
+  background-color: transparent;
+  cursor: pointer;
+}
+.menu-sanpham .dropdown-menu {
+  margin-left: -3rem;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  z-index: 1;
+}
+.menu-sanpham .dropdown-menu a {
+  color: #435EB7;
+  text-align: center;
+}
+.menu-sanpham .dropdown-menu a:hover {
+  background-color: #0E5D6B;
+  color: #ABA7A7;
+}
+
+.menu-dichvu {
+  position: relative;
+  display: inline-block;
+}
+.menu-dichvu:hover .linkdv {
+  background-color: transparent;
+}
+.menu-dichvu:hover .dropdown-menu {
+  display: block;
+}
+.menu-dichvu .linkdv {
+  background-color: transparent;
+  cursor: pointer;
+}
+.menu-dichvu .dropdown-menu {
+  margin-left: -5rem;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  z-index: 1;
+}
+.menu-dichvu .dropdown-menu a {
+  color: #435EB7;
+  text-align: center;
+}
+.menu-dichvu .dropdown-menu a:hover {
+  background-color: #0E5D6B;
+  color: #ABA7A7;
+}
+
+.footer {
+  background-color: #0E5D6B;
+}
+.footer .container .row {
+  color: #D8DBDA;
+}
+.footer .container .row #gioithieu {
+  margin-top: 2rem;
+}
+.footer .container .row #cuahang {
+  margin-top: 2rem;
+  text-align: center;
+}
+.footer .container .row #cuahang p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer .container .row #cuahang img {
+  max-width: 150px;
+  max-height: 150px;
+}
+.footer .container .row #lienhe {
+  margin-top: 2rem;
+}

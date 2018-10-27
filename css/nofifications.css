@@ -1,0 +1,88 @@
+/* Start - Chia bo cuc cho page */
+.main-side {
+    width: 300px;
+    background: #f1f1f1;
+    float: left;
+    margin: 0px 0px 100px 20px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 0px 0px 0px 0px;
+    height: 580px;
+}
+
+.second-side {
+    padding: 3px 3px 3px 3px;
+    background: #f1f1f1;
+    margin: 0px 3px 0px 323px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    height: 580px;  
+}
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+    vertical-align: middle;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+    vertical-align: middle;
+}
+ul.breadcrumb>li+li:before {
+    background: url(../images/breadcrumb.svg);
+    width: 25px;
+    height: 41px;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+
+}
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+    vertical-align: middle;
+}
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+table {
+    width:100%;
+}
+table, th, td {
+    border-bottom: #ebf1f7 solid 1px;
+    border-collapse: collapse;
+    padding: 10px 10px;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #f1f1f1;
+    padding: 20px 20px;
+    font-size: 18px;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #f1f1f1;
+   padding: 20px 20px;
+    font-size: 18px;
+}
+table#t01 th {
+    background-color: #f1f1f1;
+    color: rgb(238, 88, 88);
+    padding: 25px 25px;
+    font-size: 18px;
+}
+
+th {
+    font-size: 1.5em;
+}
+
+td {
+    font-size: 1.2em;
+}
+
